@@ -1,0 +1,27 @@
+<head>
+  <title>To Do List</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<main>
+  <div class= "container">
+      <div id="date-div">
+       <p id="hour"> </p><p id="minutes"> </p> <p id ="date"> </p>
+      </div>
+    </div>
+  <div class="unlock" id="unlock">
+  </div>
+   <div id="login" hidden=true>
+     <p id="username"><em>Username</em> <input type="text" id = "userinput" required></input></p>
+     <p id="password"><em>Password</em> <input type="text" id = "passinput" required></input></p>
+    <button id="login-btn" onclick="loginsubmit()">Login </button>
+  </div>
+<h1 id=unlocked hidden=true> UNLOCKED</h1>
+    <div class="lock"  onclick="lockdrop()">
+      <i class="fa fa-lock fa-3x" id="lock" aria-hidden="true"></i>
+    </div>
+  
+  
+  </div>
+  <script src="index.js"></script>
+</main>
